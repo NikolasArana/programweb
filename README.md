@@ -21,7 +21,7 @@ Aplicación web Full-Stack para gestionar clientes. Permite listar, registrar, e
 
 ## Estructura del proyecto
 ```
-proyecto1/
+programweb/
 ├── client/            # Frontend: React + TypeScript
 │   ├── public/
 │   ├── src/
@@ -48,8 +48,8 @@ proyecto1/
 ## Instalación
 1. Clona el repositorio y entra a la carpeta:
 ```bash
-git clone <URL-DEL-REPOSITORIO>
-cd <NOMBRE-DE-LA-CARPETA>
+git clone https://github.com/NikolasArana/programweb.git
+cd programweb
 ```
 
 2. Instala las dependencias del backend:
