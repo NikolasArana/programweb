@@ -97,7 +97,7 @@ VITE_API_URL=http://localhost:3000
 |---|---|
 | `VITE_API_URL` | URL del backend. Debe coincidir con el puerto del servidor. |
 
-> Los archivos `.env` contienen datos sensibles y no se suben al repositorio. Solo se incluyen los `.env.example`.
+
 
 ## Configuración de MongoDB
 
@@ -142,25 +142,4 @@ npm run dev
 - **API REST** con validación de datos y respuestas en formato JSON.
 - **Persistencia** de los datos en MongoDB con Mongoose.
 - **Navegación** entre páginas con React Router.
-
-## API REST
-Base: `http://localhost:3000/datos`
-
-| Método | Ruta | Descripción |
-|---|---|---|
-| GET | `/datos` | Lista todos los clientes |
-| GET | `/datos/:id` | Obtiene un cliente por su id |
-| POST | `/datos` | Crea un cliente |
-| PUT | `/datos/:id` | Actualiza un cliente |
-| DELETE | `/datos/:id` | Elimina un cliente |
-
-Las respuestas tienen este formato:
-```json
-{ "success": true, "data": { } }
-```
-```json
-{ "success": false, "error": "mensaje del error" }
-```
-
-Campos de un cliente: `nombre`, `correo`, `telefono` (opcional), `pago` y `monto`.
 
